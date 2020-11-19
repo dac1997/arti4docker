@@ -115,13 +115,6 @@ done
 ## YOU SHOULD NOT EDIT ANYTHING BELOW THIS LINE ##
 ##################################################
 
-h=$(hostname | awk '{if ($1=="frontend") {print 0} else {print $0}}' | sed -e 's/halley0//')
-if [ "X${h}" != "X0" ]; then
-  echo; echo -e "#  ERROR: You should run this script at halley cluster frontend (h0)"
-  showhelp
-  exit 1;
-fi
-
 if [ "X${prj}" == "X" ]; then
   echo; echo -e "#  ERROR: You have to provide a project name (suggested format: nnn)"
   showhelp
