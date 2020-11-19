@@ -145,8 +145,7 @@ source ~/.bashrc
 
 echo
 echo
-echo -e "#  DONE: Project ${prj} has been created. You can access the project folder"
-echo -e "#        by just typing ${prj} anywhere."
+echo -e "#  DONE: Project ${prj} has been created. You can access the project folder /opt/${prj}"
 echo -e "#"
-echo -e "#        Run do_sims_halley.sh to continue"
+echo -e "#        Run do_sims.sh to continue"
 echo
