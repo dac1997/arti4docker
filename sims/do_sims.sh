@@ -210,7 +210,7 @@ echo -e "#  Corsika executable file ($corsika_bin)"
 
 
 direct=$wdir/$prj
-basearti=/opt/arti/
+basearti=/opt/arti4docker/
 #helium -> Usually for 1 hour flux, 4 different procces is enough
 prcHe=$procs
 
